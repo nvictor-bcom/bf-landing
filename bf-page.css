@@ -1,0 +1,123 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   BRIGHTER FUTURES — landing page styles
+   Served from CDN; loaded into Squarespace by loader-snippet.html.
+   All rules are scoped to #bf-app so nothing leaks into the host site.
+   ═══════════════════════════════════════════════════════════════════════ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Public+Sans:wght@400;500;600;700&display=swap');
+
+#bf-app,#bf-app *{box-sizing:border-box}
+#bf-app{--navy:#04265D;--blue:#016EDC;--gold:#FDB704;--orange:#FB7C00;
+ position:relative;color:var(--navy);overflow-x:hidden;
+ font-family:'Public Sans',system-ui,-apple-system,sans-serif;
+ background:#fff var(--bf-texture,none) repeat top center;background-size:900px auto}
+#bf-app p,#bf-app h1,#bf-app h2,#bf-app h3{margin:0}
+#bf-app img{max-width:100%}
+#bf-app a{text-decoration:none;color:var(--blue)}
+#bf-app ::selection{background:var(--gold);color:var(--navy)}
+
+#bf-app .bf-nav{position:fixed;top:0;left:0;right:0;z-index:9000;display:flex;align-items:center;
+ justify-content:space-between;gap:24px;padding:14px clamp(20px,5vw,64px);
+ background:rgba(255,255,255,.94);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+ border-bottom:1px solid rgba(4,38,93,.10);opacity:0;transform:translateY(-100%);
+ transition:opacity .35s ease,transform .35s ease;pointer-events:none}
+#bf-app .bf-nav.bf-on{opacity:1;transform:none;pointer-events:auto}
+#bf-app .bf-nav img{display:block;width:150px;height:auto}
+#bf-app .bf-navlinks{display:flex;align-items:center;gap:clamp(14px,3vw,34px)}
+#bf-app .bf-navlink{font-weight:600;font-size:12px;letter-spacing:.20em;text-transform:uppercase;
+ color:rgba(4,38,93,.55);padding:6px 0;border-bottom:2px solid transparent;
+ transition:color .2s ease,border-color .2s ease}
+#bf-app .bf-navlink:hover{color:var(--navy)}
+#bf-app .bf-navlink.bf-active{color:var(--navy);border-bottom-color:var(--orange)}
+
+#bf-app .bf-lang{display:flex;align-items:center;border:1px solid rgba(4,38,93,.22);
+ border-radius:999px;overflow:hidden;flex:none;background:rgba(255,255,255,.94)}
+#bf-app .bf-lang button,#bf-app .bf-lang a{border:0;background:transparent;cursor:pointer;
+ padding:7px 13px;font-family:inherit;font-weight:700;font-size:12px;letter-spacing:.12em;
+ color:rgba(4,38,93,.6);line-height:1.1;transition:background .2s ease,color .2s ease}
+#bf-app .bf-lang .bf-langon{background:var(--navy);color:#fff}
+
+#bf-app .bf-hero{position:relative;display:flex;flex-direction:column;align-items:center;
+ justify-content:center;text-align:center;min-height:78vh;
+ padding:clamp(96px,13vh,150px) clamp(22px,6vw,80px) clamp(64px,9vh,110px)}
+#bf-app .bf-hero .bf-lang{position:absolute;top:16px;right:clamp(16px,4vw,40px);z-index:20}
+#bf-app .bf-herologo{display:block;width:clamp(240px,34vw,420px);height:auto;
+ margin:0 0 clamp(38px,6vw,62px)}
+#bf-app .bf-eyebrow{font-weight:700;font-size:17px;letter-spacing:.20em;text-transform:uppercase;
+ color:var(--blue);margin-bottom:clamp(20px,3vw,30px)}
+#bf-app h1{max-width:20ch;font-family:'Montserrat',sans-serif;font-weight:900;
+ font-size:clamp(42px,8.4vw,96px);line-height:.94;letter-spacing:-.01em;text-transform:uppercase;
+ text-wrap:balance}
+#bf-app .bf-herosub{margin-top:clamp(26px,4vw,38px);max-width:38ch;font-weight:500;
+ font-size:clamp(19px,2.3vw,30px);line-height:1.4;text-wrap:pretty}
+
+#bf-app .bf-photo{position:relative;width:100%;height:clamp(420px,52vw,680px);overflow:hidden;
+ background:rgba(4,38,93,.06)}
+#bf-app .bf-photo>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+ transform:translate(-0.99%,-3.63%) scale(1.0925)}
+#bf-app .bf-photocard{position:absolute;left:0;top:50%;transform:translateY(-50%);
+ width:min(56%,480px);display:flex;align-items:center;padding:clamp(24px,4vw,64px);
+ background:rgba(255,255,255,.80);border-bottom:9px solid var(--gold)}
+#bf-app .bf-photocard p{font-family:'Montserrat',sans-serif;font-weight:800;
+ font-size:clamp(20px,2.4vw,36px);line-height:1.3;letter-spacing:-.01em;text-wrap:pretty}
+
+#bf-app .bf-navybar{background:var(--navy);padding:clamp(48px,7vw,96px) clamp(22px,6vw,80px)}
+#bf-app .bf-navybar p{margin:0 auto;max-width:1080px;font-family:'Montserrat',sans-serif;
+ font-weight:800;font-size:clamp(24px,3.4vw,46px);line-height:1.2;letter-spacing:-.01em;
+ color:#fff;text-align:center;text-wrap:pretty}
+
+#bf-app .bf-standard{padding:clamp(76px,11vw,148px) clamp(22px,6vw,80px) clamp(76px,11vw,140px)}
+#bf-app .bf-wrap{max-width:1080px;margin:0 auto;text-align:center}
+#bf-app .bf-arcs{display:block;width:clamp(120px,14vw,190px);height:auto;
+ margin:0 auto clamp(20px,2.6vw,32px);overflow:visible}
+#bf-app h2{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(34px,5.4vw,68px);
+ line-height:1;letter-spacing:-.01em;text-transform:uppercase;margin-bottom:clamp(44px,6vw,72px)}
+#bf-app .bf-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+ align-items:center;gap:clamp(24px,4vw,64px);padding:clamp(34px,4.5vw,56px) 0;
+ border-top:1px solid rgba(251,124,0,.30)}
+#bf-app .bf-rowend{border-top:1px solid rgba(251,124,0,.30)}
+#bf-app .bf-frame{aspect-ratio:4/3;width:100%;overflow:hidden;border-radius:4px;
+ background:rgba(4,38,93,.06)}
+#bf-app .bf-frame img{display:block;width:100%;height:100%;object-fit:cover;
+ transition:transform .7s cubic-bezier(.2,.7,.3,1)}
+#bf-app .bf-frame:hover img{transform:scale(1.045)}
+#bf-app .bf-rowtext{display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px}
+#bf-app .bf-num{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(44px,6vw,76px);
+ line-height:.8;letter-spacing:-.02em;color:rgba(4,38,93,.5)}
+#bf-app h3{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(26px,3.6vw,44px);
+ line-height:1.02;letter-spacing:-.01em;text-transform:uppercase}
+#bf-app .bf-rowtext p{max-width:44ch;font-weight:400;font-size:clamp(16px,1.5vw,20px);
+ line-height:1.5;text-wrap:pretty;color:rgba(4,38,93,.76)}
+
+#bf-app .bf-highlight{background:var(--gold);padding:clamp(70px,11vw,140px) clamp(22px,6vw,80px);
+ text-align:center}
+#bf-app .bf-highlight p{margin:0 auto;max-width:18ch;font-family:'Montserrat',sans-serif;
+ font-weight:900;font-size:clamp(34px,6.4vw,82px);line-height:.98;letter-spacing:-.01em;
+ text-transform:uppercase;text-wrap:balance}
+
+#bf-app .bf-footer{background:var(--navy);border-top:6px solid var(--gold);
+ padding:clamp(48px,7vw,78px) clamp(22px,6vw,80px) clamp(34px,4vw,48px)}
+#bf-app .bf-footertop{max-width:1080px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;
+ justify-content:space-between;gap:clamp(28px,5vw,60px)}
+#bf-app .bf-footertop img{display:block;width:clamp(180px,24vw,260px);height:auto}
+#bf-app .bf-footerlink{font-weight:600;font-size:clamp(13px,1.3vw,16px);letter-spacing:.20em;
+ text-transform:uppercase;color:#fff;border-bottom:1px solid rgba(255,255,255,.35);padding-bottom:4px;
+ transition:color .2s ease,border-color .2s ease}
+#bf-app .bf-footerlink:hover{color:var(--gold);border-color:var(--gold)}
+#bf-app .bf-fine{max-width:1080px;margin:clamp(40px,6vw,66px) auto 0;padding-top:22px;
+ border-top:1px solid rgba(255,255,255,.18)}
+#bf-app .bf-fine p{font-size:13px;line-height:1.6;color:rgba(255,255,255,.72)}
+
+#bf-app [data-bf-rise]{opacity:0;transform:translateY(26px)}
+#bf-app [data-bf-rise].bf-in{opacity:1;transform:none;
+ transition:opacity .8s ease,transform .85s cubic-bezier(.2,.7,.3,1)}
+#bf-app [data-bf-reveal]{opacity:0;transform:translateY(22px)}
+#bf-app [data-bf-reveal].bf-in{opacity:1;transform:none;
+ transition:opacity .6s ease,transform .6s cubic-bezier(.2,.7,.3,1)}
+@media (prefers-reduced-motion:reduce){
+ #bf-app *{animation:none!important;transition:none!important}
+ #bf-app [data-bf-rise],#bf-app [data-bf-reveal]{opacity:1!important;transform:none!important}}
+@media (max-width:700px){
+ #bf-app .bf-photocard{position:static;transform:none;width:100%;background:rgba(255,255,255,.92)}
+ #bf-app .bf-photo{height:auto}
+ #bf-app .bf-photo>img{position:relative;height:clamp(260px,58vw,420px);transform:none}
+ #bf-app .bf-navlinks .bf-navlink{display:none}}
