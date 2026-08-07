@@ -82,7 +82,7 @@
 '        <div class="bf-rowtext">',
 '          <span class="bf-num">01</span>',
 '          <h3 data-bf-i18n="s1t">Students First</h3>',
-'          <p data-bf-i18n="s1b">Every dollar and every decision measured against one question: does this help a kid learn?</p>',
+'          <p data-bf-i18n="s1b">Every dollar and every decision measured against one question: does this help our kids learn?</p>',
 '        </div>',
 '      </div>',
 '',
@@ -123,15 +123,15 @@
   ].join('\n');
 
   var ES={
-  navStatement:'Declaraci\u00f3n', navStandard:'Nuestros est\u00e1ndares', navContact:'Contacto',
-  eyebrow:'Junta Escolar de Chicago \u00b7 Noviembre 2026',
-  h1:'Futuros M\u00e1s Brillantes',
-  heroSub:'Un futuro m\u00e1s brillante para las escuelas de Chicago empieza con un liderazgo que pone a los estudiantes y las familias primero.',
-  bannerFamilies:'Las familias de Chicago merecen un liderazgo en la junta escolar centrado en los estudiantes, las comunidades y el progreso real.',
-  bannerNavy:'Brighter Futures apoya a los candidatos que cumple con esos est\u00e1ndares.',
-  standardTitle:'Nuestros est\u00e1ndares',
-  s1t:'Estudiantes Primero', s1b:'Cada d\u00f3lar y cada decisi\u00f3n se miden con una sola pregunta: \u00bfayuda esto a que un ni\u00f1o aprenda?',
-  s2t:'Cuentas Claras', s2b:'Los padres deber\u00edan poder ver c\u00f3mo se gasta el dinero de su escuela sin tener que presentar una solicitud.',
+  navStatement:'Declaraci\u00f3n', navStandard:'Nuestro Est\u00e1ndar', navContact:'Contacto',
+  eyebrow:'Junta de Educaci\u00f3n de Chicago \u00b7 Noviembre 2026',
+  h1:'Nuestros Mejores Futuros empiezan aqu\u00ed',
+  heroSub:'Un mejor futuro para las escuelas de Chicago comienza con liderazgo que prioriza a nuestros estudiantes y familias.',
+  bannerFamilies:'Las familias de Chicago merecen liderazgo en la junta de educaci\u00f3n que est\u00e9 enfocado en nuestros estudiantes, comunidades, y progreso real.',
+  bannerNavy:'\u00c9l comit\u00e9 para Mejores Futuros apoya a aquellos candidato que cumplan con ese est\u00e1ndar.',
+  standardTitle:'Nuestro Est\u00e1ndar',
+  s1t:'Estudiantes vienen primero', s1b:'Cada d\u00f3lar y decisi\u00f3n que tomamos debe de tener en mente una pregunta: esto ayuda a que nuestros estudiantes aprendan?',
+  s2t:'Rinde cuentas', s2b:'Los padres deber\u00edan poder ver c\u00f3mo se gasta el dinero de su escuela sin tener que presentar una solicitud.',
   s3t:'Escuelas Que Funcionan', s3b:'Una buena escuela a distancia caminando de cada familia.',
   highlight:'Los estudiantes primero. No la politica.',
   disclaimer:'Pagado por Brighter Futures. No autorizado por ning\u00fan candidato ni por el comit\u00e9 de ning\u00fan candidato.'
