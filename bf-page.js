@@ -22,7 +22,7 @@
     hero:      base+'assets/hero-banner.webp',
     s1:        base+'assets/standard-01.webp',
     s2:        base+'assets/standard-02.webp',
-    s3:        base+'assets/standard-03.webp'
+    s3:        base+'assets/item-03-image.jpg'
   };
   var IMG={}, overrides=window.BF_IMAGES||{};
   Object.keys(DEFAULTS).forEach(function(k){IMG[k]=overrides[k]||DEFAULTS[k];});
