@@ -134,9 +134,9 @@
   standardTitle:'Nuestro Est\u00e1ndar',
     s1t: 'Nuestros estudiantes son lo primero', s1b:'Cada d\u00f3lar y decisi\u00f3n que tomamos debe tener en mente una pregunta: ¿esto ayuda a que nuestros estudiantes aprendan?',
     s2t: 'Rinden cuentas', s2b:'Los padres y madres de familia deben de poder ver cómo se gasta el dinero en nuestras escuelas sin tanta burocracia.',
-    s3t:'Escuelas con buen rendimiento académico ', s3b:'Una buena escuela a distancia caminando de cada familia.',
+    s3t:'Escuelas con buen rendimiento académico ', s3b:'Luchamos para tener una buena escuela a poca distancia de cada familia.',
   highlight:'Los estudiantes primero. No la politica.',
-  highlightSub1:'Luchamos para tener una buena escuela a poca distancia de cada familia.',
+  highlightSub1:'',
   highlightSub2:'Pongamos a nuestros estudiantes ANTES de la pol\u00edtica.',
   disclaimer:'Pagado por Brighter Futures. No autorizado por ning\u00fan candidato ni por el comit\u00e9 de ning\u00fan candidato.'
 }, EN={};
