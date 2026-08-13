@@ -110,7 +110,7 @@
 '  <section class="bf-highlight">',
 '    <p data-bf-i18n="highlight">Students first. Not politics.</p>',
 '    <p class="bf-highlightsub" data-bf-i18n="highlightSub1">&nbsp;</p>',
-'    <p class="bf-highlightsub" data-bf-i18n="highlightSub2">Let\u2019s put our students BEFORE politics.</p>',
+'    <p style="display: none;" class="bf-highlightsub" data-bf-i18n="highlightSub2">Let\u2019s put our students BEFORE politics.</p>',
 '  </section>',
 '',
 '  <footer class="bf-footer" id="bf-footer">',
