@@ -135,9 +135,9 @@
     s1t: 'Nuestros estudiantes son lo primero', s1b:'Cada d\u00f3lar y decisi\u00f3n que tomamos debe tener en mente una pregunta: ¿esto ayuda a que nuestros estudiantes aprendan?',
     s2t: 'Rinden cuentas', s2b:'Los padres y madres de familia deben de poder ver cómo se gasta el dinero en nuestras escuelas sin tanta burocracia.',
     s3t:'Escuelas con buen rendimiento académico ', s3b:'Luchamos para tener una buena escuela a poca distancia de cada familia.',
-  highlight:'Los estudiantes primero. No la politica.',
+  highlight:'Pongamos a nuestros estudiantes ANTES de la pol\u00edtica.',
   highlightSub1:'',
-  highlightSub2:'Pongamos a nuestros estudiantes ANTES de la pol\u00edtica.',
+  highlightSub2:'',
   disclaimer:'Pagado por Brighter Futures. No autorizado por ning\u00fan candidato ni por el comit\u00e9 de ning\u00fan candidato.'
 }, EN={};
   if(window.BF_SHOW_NAV===false){var n0=app.querySelector('[data-bf-nav]'); if(n0)n0.remove();}
